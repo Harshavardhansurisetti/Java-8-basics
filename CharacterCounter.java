@@ -10,8 +10,8 @@ public class CharacterCounter {
        Map<Character, Integer> charCount = new LinkedHashMap<>();
        System.out.println(input.toCharArray());
        for(char c:input.toCharArray()) {
-    	   if(c==' ') 
-    		   continue;
+ //   	   if(c==' ') 
+//    		   continue;
     	   charCount.put(c, charCount.getOrDefault(c, 0)+1);
        }
        
