@@ -13,7 +13,7 @@ public class PalindromeFinder {
 
 	}
 	
-	public static void palindrome(String s) {
+	public static void palindrome(String a) {
 	//	int a = s.length();
 		//String result = "";
 	
@@ -24,13 +24,13 @@ public class PalindromeFinder {
 //				result += temp;
 //				
 //			}
-		StringBuilder sb = new StringBuilder(s);   
+		StringBuilder sb = new StringBuilder(a);   
         String result = sb.reverse().toString();
 		
 		
-			if(result.equalsIgnoreCase(s)) {
+			if(result.equalsIgnoreCase(a)) {
 				
-				System.out.println(s);
+				System.out.println(a);
 			}
 			
 			
